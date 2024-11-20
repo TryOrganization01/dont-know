@@ -11,6 +11,9 @@ namespace LambdaExpressions
     public delegate string GreetingsDelegate(string name);
         static void Main(string[] args)
         {
+            if(true){
+                Console.WriteLine("Siddesh");
+            }
             GreetingsDelegate obj = (name) =>
             {
                 return "Hello @" + name + " Welcome";
